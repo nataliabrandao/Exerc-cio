@@ -2,8 +2,15 @@
 
 int main()
 { 
-    double massa = 70;
-    double altura = 1.65;
+    double massa;
+
+    std::cout << "Digite sua massa em kg: ";
+    std::cin >> massa;
+    
+    double altura;
+
+    std::cout << "Digite sua altura em m: ";
+    std::cin >> altura;
     
     double I = massa / (altura * altura);
     
@@ -41,7 +48,7 @@ int main()
     {
         std::cout<<"Tal índice não está incluso na tabela"<< std::endl; 
     }
-    
-    return 0;
+
+    return 0; 
 
 }
